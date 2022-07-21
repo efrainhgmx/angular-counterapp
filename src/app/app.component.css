@@ -1,0 +1,39 @@
+main {
+    display: grid;
+    place-content: center;
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+    color: white;
+}
+
+.counter {
+    width: 90%;
+    max-width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    outline: none;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    min-width: 120px;
+    min-height: 32px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+p strong {
+    font-size: 24px;
+    color: white;
+}
