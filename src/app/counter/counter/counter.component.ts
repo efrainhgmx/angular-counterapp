@@ -5,4 +5,10 @@ import { Component } from "@angular/core";
     templateUrl: './counter.component.html',
     styleUrls: ['./counter.component.css']
 })
-export class CounterComponent {}
+export class CounterComponent {
+    numberToIncrease: number = 0;
+
+    increaseOrDecrease(value: number):void {
+        this.numberToIncrease += value;
+    }
+}
