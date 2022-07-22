@@ -16,3 +16,13 @@ Usamos el comando:
 
 `$ng serve` //Levanta el proyecto en modo desarrollo
 `$ng serve -o` //Abre el proyecto en una pestaña del navegador, tan pronto levante el proyecto
+
+### Crear componente de manera autómatica
+
+Se pueden usar cualquier de los siguientes comandos:
+
+`$ng generate component directorio/nombre-componente`
+
+o hacer la manera corta (Ammbos es lo mismo)
+
+`$ng g c directorio/nombre-componente`
