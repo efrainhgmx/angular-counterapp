@@ -6,3 +6,16 @@ li {
     color: white;
     font-size: 18px;
 }
+
+button {
+    border: none;
+    border-radius: 8px;
+    min-height: 46px;
+    padding-inline: 16px;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+button:hover {
+    cursor: pointer;
+}

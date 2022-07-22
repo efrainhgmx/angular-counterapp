@@ -1,3 +1,4 @@
-<ul>
-    <li>Hi</li>
+<button (click)="createList()">Click to create a numerated list</button>
+<ul *ngFor="let number of listNumber;">
+    <li>{{ number }}.- </li>
 </ul>

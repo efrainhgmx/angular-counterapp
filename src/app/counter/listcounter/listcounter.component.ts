@@ -5,4 +5,10 @@ import { Component } from "@angular/core";
     templateUrl: './listcounter.component.html',
     styleUrls: ['./listcounter.component.css']
 })
-export class ListCounterComponent {}
+export class ListCounterComponent {
+    listNumber: number[] = [];
+
+    createList() {
+        this.listNumber.push(this.listNumber.length + 1);
+    }
+}
