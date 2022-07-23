@@ -21,13 +21,13 @@ Usamos el comando:
 
 Se pueden usar cualquier de los siguientes comandos:
 
-`$ng generate component directorio/nombre-componente`
+`$ng generate component directorio/nombreComponente`
 
 o hacer la manera corta (Ammbos es lo mismo)
 
-`$ng g c directorio/nombre-componente`
+`$ng g c directorio/nombreComponente`
 
-`$ng g c directorio/nombre-componente --skip-tests` //Crea el componente sin los archivos de tests
+`$ng g c directorio/nombreComponente --skip-tests` //Crea el componente sin los archivos de tests
 
 Esto genera el componenten dentro de la carpeta **src/app** por eso ya no se especifica
 
@@ -37,8 +37,8 @@ Al igual que se pueden generar componentes, podemos crear modulos de manera auto
 
 Y para eso usamos el siguiente comando:
 
-`$ ng generate module nombre-del-modulo`
+`$ ng generate module nombreDelModulo`
 
 o de la manera abreviada:
 
-`$ ng g m nombre-del-modulo`
+`$ ng g m nombreDelModulo`
