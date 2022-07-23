@@ -26,3 +26,5 @@ Se pueden usar cualquier de los siguientes comandos:
 o hacer la manera corta (Ammbos es lo mismo)
 
 `$ng g c directorio/nombre-componente`
+
+Esto genera el componenten dentro de la carpeta **src/app** por eso ya no se especifica
