@@ -28,3 +28,15 @@ o hacer la manera corta (Ammbos es lo mismo)
 `$ng g c directorio/nombre-componente`
 
 Esto genera el componenten dentro de la carpeta **src/app** por eso ya no se especifica
+
+### Generar un modulo mediante angular-cli
+
+Al igual que se pueden generar componentes, podemos crear modulos de manera automática.
+
+Y para eso usamos el siguiente comando:
+
+`$ ng generate module nombre-del-modulo`
+
+o de la manera abreviada:
+
+`$ ng g m nombre-del-modulo`
