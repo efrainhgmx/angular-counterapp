@@ -16,6 +16,10 @@ button {
     color: white;
 }
 
+h2 {
+    color: white;
+}
+
 button:hover {
     cursor: pointer;
 }
