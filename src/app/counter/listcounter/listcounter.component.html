@@ -1,4 +1,8 @@
-<button (click)="createList()">Click to create a numerated list</button>
+<button class="add" (click)="createList()">Click to create a numerated list</button>
+<button class="remove" (click)="removeLastItem()">Remover elemento de la lista</button>
+
+<p *ngIf="listNumber.length === 0">No has creado ninguna lista</p>
+
 <ul *ngFor="let number of listNumber;">
     <li>{{ number }}.- </li>
 </ul>

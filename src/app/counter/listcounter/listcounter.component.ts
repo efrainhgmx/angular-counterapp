@@ -11,4 +11,8 @@ export class ListCounterComponent {
     createList() {
         this.listNumber.push(this.listNumber.length + 1);
     }
+
+    removeLastItem() {
+        if(this.listNumber[0]) this.listNumber.pop();
+    }
 }

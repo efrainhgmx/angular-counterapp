@@ -13,9 +13,24 @@ button {
     min-height: 46px;
     padding-inline: 16px;
     font-weight: bold;
-    background-color: aliceblue;
+    color: white;
 }
 
 button:hover {
     cursor: pointer;
+}
+
+.add {
+    background-color: rgb(17, 235, 17);
+    margin-inline-end: 15px;
+}
+
+.remove {
+    background-color: rgb(170, 15, 15);
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: white;
 }
