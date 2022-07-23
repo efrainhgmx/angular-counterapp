@@ -27,6 +27,8 @@ o hacer la manera corta (Ammbos es lo mismo)
 
 `$ng g c directorio/nombre-componente`
 
+`$ng g c directorio/nombre-componente --skip-tests` //Crea el componente sin los archivos de tests
+
 Esto genera el componenten dentro de la carpeta **src/app** por eso ya no se especifica
 
 ### Generar un modulo mediante angular-cli
