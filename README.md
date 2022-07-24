@@ -25,9 +25,9 @@ Se pueden usar cualquier de los siguientes comandos:
 
 o hacer la manera corta (Ammbos es lo mismo)
 
-`$ng g c directorio/nombreComponente`
+`$ng g c modulo/nombreComponente`
 
-`$ng g c directorio/nombreComponente --skip-tests` //Crea el componente sin los archivos de tests
+`$ng g c modulo/nombreComponente --skip-tests` //Crea el componente sin los archivos de tests
 
 Esto genera el componenten dentro de la carpeta **src/app** por eso ya no se especifica
 
