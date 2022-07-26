@@ -42,3 +42,9 @@ Y para eso usamos el siguiente comando:
 o de la manera abreviada:
 
 `$ ng g m nombreDelModulo`
+
+### Version de produccion.
+
+En las ultimas versiones de Angular usamos el siguiente comando para crear un build e producción:
+
+`$ ng build --configuration production` 
