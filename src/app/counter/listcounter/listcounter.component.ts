@@ -16,13 +16,13 @@ export class ListCounterComponent {
 
     constructor(private counterService: CounterService){}
      createList() {
-        this.listNumber.push(this.counterService.serviceNumber);
+        this.counterService.SetnumberService = 1;
         //this.counterService.createList();
         //this.listNumber = this.listNumber;
         //this.listNumber.push(this.listNumber.length + 1);
     }
 
     removeLastItem() {
-        if(this.listNumber[0]) this.listNumber.pop();
+        this.counterService.SetnumberService = -1;
     } 
 }

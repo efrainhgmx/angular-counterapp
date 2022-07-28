@@ -15,9 +15,13 @@ export class CounterService {
 
     set SetnumberService(value: number) {
         this.numberService += value;
-        (value === 1) 
-            ? this._listNumber.push(this.numberService)
-            : this._listNumber.pop();
+        if(this.numberService < 5) this.numberService = 5;
+        
+        if(this.numberService >= 5 && value === -1) {
+            this._listNumber.pop();
+        } else if(this.numberService >= 5 && value === 1) {
+            this._listNumber.push(this.numberService);
+        }
         
     }
 }
