@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { CounterService } from "../service/counter.service";
 
 @Component({
     selector: 'app-listcounter',
@@ -8,7 +9,9 @@ import { Component } from "@angular/core";
 export class ListCounterComponent {
     listNumber: number[] = [];
 
+    constructor(private counterService: CounterService){}
     createList() {
+        console.log(this.counterService.serviceNumber);
         this.listNumber.push(this.listNumber.length + 1);
     }
 
