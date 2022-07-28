@@ -7,15 +7,22 @@ import { CounterService } from "../service/counter.service";
     styleUrls: ['./listcounter.component.css']
 })
 export class ListCounterComponent {
-    listNumber: number[] = [];
+
+    get listNumber(): number[] {
+        return this.counterService.listNumber;
+    }
+
+   
 
     constructor(private counterService: CounterService){}
-    createList() {
-        console.log(this.counterService.serviceNumber);
-        this.listNumber.push(this.listNumber.length + 1);
+     createList() {
+        this.listNumber.push(this.counterService.serviceNumber);
+        //this.counterService.createList();
+        //this.listNumber = this.listNumber;
+        //this.listNumber.push(this.listNumber.length + 1);
     }
 
     removeLastItem() {
         if(this.listNumber[0]) this.listNumber.pop();
-    }
+    } 
 }

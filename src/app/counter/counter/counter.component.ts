@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { CounterService } from "../service/counter.service";
 
 @Component({
     selector: 'app-counter',
@@ -7,9 +8,12 @@ import { Component } from "@angular/core";
     
 })
 export class CounterComponent {
-    numberToIncrease: number = 0;
+    get numberToIncrease() {
+        return this.counterService.serviceNumber;
+    }
 
+    constructor(private counterService: CounterService){}
     increaseOrDecrease(value: number):void {
-        this.numberToIncrease += value;
+        this.counterService.SetnumberService =  value ;
     }
 }
