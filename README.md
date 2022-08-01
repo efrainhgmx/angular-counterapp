@@ -28,6 +28,7 @@ o hacer la manera corta (Ammbos es lo mismo)
 `$ng g c modulo/nombreComponente`
 
 `$ng g c modulo/nombreComponente --skip-tests` //Crea el componente sin los archivos de tests
+`$ng g c modulo/nombreComponente --skip-tests --inline-style` //Crea el componente sin los archivos de tests ni estilos
 
 Esto genera el componenten dentro de la carpeta **src/app** por eso ya no se especifica
 
