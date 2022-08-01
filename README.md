@@ -44,6 +44,11 @@ o de la manera abreviada:
 
 `$ ng g m nombreDelModulo`
 
+### Generar un servicio mediante angular-cli
+
+`$ ng g s modulename/service/nameservice`
+`$ ng g s modulename/service/nameservice --skip-tests`
+
 ### Version de produccion.
 
 En las ultimas versiones de Angular usamos el siguiente comando para crear un build e producción:
